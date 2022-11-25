@@ -14,4 +14,3 @@ if (number=="1") {
 } else {
     console.log("Sunday");
 }
-/*Réussi, ouf!*/
