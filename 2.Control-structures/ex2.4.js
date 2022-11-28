@@ -1,12 +1,10 @@
-let i = 0;
-while (i <= 99) {
-  i += 1;
-  let v = 1;
-    if (v += 1){
-        console.log(i,v*3);
+let i=1;
+while (i < 100) {
+    if (i%2==0) {
+        console.log(i/=2);
+
+    } else {
+        console.log(i*=3);
     }
-    else {
-    console.log(i,v%2);
-  } 
+    i++; 
 }
-/*À revoir pour les multiplications et divisions*/
